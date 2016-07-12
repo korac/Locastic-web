@@ -1,0 +1,21 @@
+{
+  "name": "Locastic-web",
+  "description": "ljetna_praksa-prijava",
+  "main": "index.html",
+  "authors": [
+    "kox",
+    "matas"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

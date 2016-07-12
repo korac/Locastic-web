@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,900);
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	font-family: 'Lato';
+}
+
+nav{
+	border-color: #fff;
+}
+
+.navbar-default{
+	background-color: #1caae2;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a{
+	text-transform: uppercase;
+}
+
+header{
+	position: relative;
+	background-color: #1caae2;
+	width: 100%;
+	height: 100%;
+}
+
+.logo{
+	position: relative;
+	top: 250px;
+	padding: 80px;
+	background-image: url(http://www.locastic.com/splash/img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heytext{
+	color: white; 
+	text-align: center; 
+	font-style: italic;
+}
+
+.subtitle{
+	position: relative;
+    color: white;
+    top: 240px;
+    text-align: center;
+}
+
+.subtitle hr{
+	width: 28%;
+	border-top: 2px solid #fff;
+}
+
+.subtitle h2{
+	margin-top: 30px;
+}
+
+#intro{
+	padding: 10% 0;
+	text-align: center;
+}
+
+#intro blockquote{
+	border-color: #1caae2;
+	font-size: 25px; 
+	font-style: italic;
+}
+
+#aboutUs, #preTimelines{
+	background-color: #1caae2;
+	height: 200px ;
+	text-align: center;
+	color: #fff;
+	padding: 4%;
+}
+
+#ourProfiles{
+	margin: 120px 0;
+}
+
+#timelines{
+	margin: 60px 0;
+}
+
+.member p{
+	font-size: 20px;
+}
+
+.member-kristijan, .timeline-kristijan{
+	border-left: 5px solid #1caae2;
+}
+
+.member-kristijan h2, .member-kristijan p{
+	text-align: right;
+}
+
+.profilePic{
+	text-align: center;
+}
+
+.profilePic img{
+	height: 260px;
+    width: 260px;
+    border: 3px solid #1caae2;
+    padding: 2px;
+}
+
+.icons{
+	margin-top: 10px;
+}
+
+.icons i{
+    margin: 0 10px;
+}
+
+.timeline-title{
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.timeline-title h2{
+	color: #1caae2;
+	font-size: 40px;
+	font-style: italic;	
+}
+
+div .noLeftPadding{
+	padding-left: 0;
+}
+
+#interes{
+	background-color: #1caae2;
+	height: 400px ;
+	text-align: center;
+	color: #fff;
+	padding: 4%;
+}
+
+.symfonyImg img, .angularImg img{
+	width: 500px;
+}
+
+.angularImg{
+	top: 15px;
+}
+
+.angularImg blockquote{
+	margin-top: 8px;
+}
+
+.angularImg blockquote, .symfonyImg blockquote{
+	margin: 0 7%;
+	font-style: italic;
+}
+
+#forms{
+	height: 450px;
+	margin: 80px 0;
+}
+
+#forms .row{
+	text-align: center;
+}
+
+#forms h2{
+	margin-bottom: 80px;
+}
+
+textarea{
+	resize: none;
+}
+
+legend{
+	font-size: 18px;
+}
+
+footer{
+	background-color: #1caae2;
+	height: 200px;
+	padding: 4%;
+}
+
+footer h3{
+	color: #fff;
+	text-align: center;
+}
