@@ -48,47 +48,45 @@ $('document').ready(function(){
 		$('#forms').animatescroll({easing: 'easeInOutCirc', scrollSpeed: 1000});
 	});
 
-	$(function () {
 
-		$('#form1').on('submit', function (e) {
+	$('#form1').on('submit', function (e) {
 
-			e.preventDefault();
+		e.preventDefault();
 
-			$.ajax({
-				type: 'POST',
-				url: 'contact.php',
-				data: $('#form1').serialize(),
-				success: function () {
-					$("#yes").css("display","block");
-					$("#email1").val("");
-					$("#textReply1").val("")
-				},
-				error: function () {
-					$("#no").css("display","block");
-				}
-			});
-
-		});
-
-		$('#form2').on('submit', function (e) {
-
-			e.preventDefault();
-
-			$.ajax({
-				type: 'POST',
-				url: 'contact.php',
-				data: $('#form2').serialize(),
-				success: function () {
-					$("#yes2").css("display","block");
-					$("#email2").val("");
-					$("#textReply2").val("")
-				},
-				error: function () {
-					$("#no2").css("display","block");
-				}
-			});
-
+		$.ajax({
+			type: 'POST',
+			url: 'contact.php',
+			data: $('#form1').serialize(),
+			success: function () {
+				$("#yes").css("display","block");
+				$("#email1").val("");
+				$("#textReply1").val("")
+			},
+			error: function () {
+				$("#no").css("display","block");
+			}
 		});
 
 	});
+
+	$('#form2').on('submit', function (e) {
+
+		e.preventDefault();
+
+		$.ajax({
+			type: 'POST',
+			url: 'contact.php',
+			data: $('#form2').serialize(),
+			success: function () {
+				$("#yes2").css("display","block");
+				$("#email2").val("");
+				$("#textReply2").val("")
+			},
+			error: function () {
+				$("#no2").css("display","block");
+			}
+		});
+
+	});
+
 })
